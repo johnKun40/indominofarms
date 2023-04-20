@@ -34,4 +34,20 @@ html {
     @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#942828] to-[#ac7474] text-white
   }
 
+  .oval {
+    height: 60px;
+    width: 200px;
+    transform: skewY(-10deg);
+    border-radius: 50%;
+    border:2px solid #268a2d ;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+
+  .rot {
+    transform: skewY(10deg);
+    color: #ddcfcf;
+  }
+
 }
