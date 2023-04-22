@@ -38,16 +38,23 @@ html {
     height: 60px;
     width: 200px;
     transform: skewY(-10deg);
+    transition: transform .5s;
     border-radius: 50%;
     border:2px solid #268a2d ;
     display: flex;
     justify-content:center;
     align-items: center;
+    cursor: pointer;
+  }
+
+  .oval:hover {
+    transform: scale(1.15) skewY(-10deg);
   }
 
   .rot {
     transform: skewY(10deg);
     color: #ddcfcf;
   }
+
 
 }

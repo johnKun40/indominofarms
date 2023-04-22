@@ -17,14 +17,14 @@ function Navbar() {
                 height='50' 
                 />
             </Link>
-            <h3 className='hidden lg:block md:text-[#ddcfcf] md:text-xl'>Indomino Farms</h3>
+            <h3 className='hidden lg:block md:text-[#ddcfcf] md:text-xl cursor-pointer'>Indomino Farms</h3>
             <AiOutlineMenu className='text-[#ddcfcf] text-3xl md:hidden' />
 
             <ul className='hidden md:flex md:flex-row lg:max-w-[800px] md:gap-8 md:justify-start lg:ml-32 md:text-[#ddcfcf] md:font-bold'>
               <li className='hover:underline'>Home</li>
-              <li>Products</li>
-              <li>About Us</li>
-              <li>Contact</li>
+              <li className='hover:underline'>Products</li>
+              <li className='hover:underline'>About Us</li>
+              <li className='hover:underline'>Contact</li>
             </ul>
 
             <TbGridDots className='hidden cursor-pointer md:block text-3xl text-[#ddcfcf] lg:flex-auto lg:mr-[-500px]' />
