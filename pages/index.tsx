@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Banner from '@/components/Banner'
+import Choose from '@/components/Choose'
 import Image from 'next/image'
 
 
@@ -13,7 +14,7 @@ export default function Home() {
       </Head>
       <main>
         <Banner/>
-        <p>Indomino farms</p>
+        <Choose />
       </main>
     </div>
   )
