@@ -22,7 +22,7 @@ function Choose() {
                 alt="/"
                 width="230"
                 height="200"
-                className='absolute z-10 left-36 lg:left-[50rem] lg:top-[-8rem] lg:h-[500px] lg:w-[500px]'
+                className='absolute z-10 left-36 lg:left-[50rem] lg:top-[-8rem] lg:h-[500px] lg:w-[500px] bg-fuchsia-900'
                 />
                 <p className='absolute z-20 top-[30rem] lg:w-[500px] lg:left-[50rem]'>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, quos quam tempora sapiente molestias quo itaque nulla nihil ducimus libero consectetur labore animi odio, veritatis architecto voluptatibus illo. Unde, dolore.
